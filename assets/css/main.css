@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: url(../image/fundo.png) repeat-x;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(../image/detalhe-topo.png) right top no-repeat;
+    padding: 25px 0 0 0 ;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../image/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+/* 
+Barra de navegação
+*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul li a {
+    font-size: 0,9em;
+    display: block;
+    padding: 0.5em 1.4em;
+    line-height: 2.1em; 
+    text-decoration: none;
+    color: #fff;
+    background: url(../image/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover{
+    color: #69001d;
+}
+
+body.home #navegation a#home,
+body.brazil #navegation a#brazil,
+body.internation #navegation a#internation,
+body.economy #navegation a#economy,
+body.health #navegation a#health,
+body.sciences #navegation a#sciences,
+body.photograph #navegation a#photograph {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+#content {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+#primary {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: blue;
+}
+
+#twoColumn #primary {
+    width: 555px;
+}
+
+#oneColumn #primary {
+    width: 750px;
+    margin: 0 0 20px ;
+}
+
+#secondary {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background: green;
+}
+
+#side {
+    width: 180px;
+    float: left;
+    margin: 0 0 0 -750px;
+}
+
+.box {
+    margin: 10px 0;
+    background: #f3f3f3 url(../image/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.contentBox {
+    background: #fff;
+    margin-top: 5px;
+    padding: 5px ;
+}
+
+
+
+
+
+/* Footer */
+#containerFootter {
+    background: #294c71;
+    padding: 20px;
+}
+
+#footer  {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+
